@@ -1,0 +1,205 @@
+
+/*MÉDIA 1600 ~ 1200*/
+@media screen and (min-device-width: 900px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .home_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+
+
+ .tooth1{
+    width:30%;
+    top: 25rem
+
+ }
+
+ .tooth2{
+   position: absolute;
+   width: 18%;
+   left: 0;
+   top: 95%;
+ }
+
+  /* home apresentation*/
+
+  .apresentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .apresentation_firstHalf {
+    width: 40%;
+    height: 40%;
+    margin-top: 9rem;
+    margin-left: 1%;
+
+  }
+
+  .apresentation_firstHalf h2 {
+    font-size: 3rem;
+    font-family: 'MontserratBold', sans-serif;
+    color: #3E3E3E;
+    font-weight: 900;
+    width: 100%;
+  }
+
+  .h2_span {
+    font-size: 3rem;
+    font-family: 'MontserratBold', sans-serif;
+    color: #21B1D6;
+    border-color: #21B1D6;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    /* color: #21B1D6; */
+  }
+
+  .apresentation_firstHalf p {
+    margin-top: 1rem;
+    font-size: 24px;
+    font-family: "MontserratNormal";
+    font-weight: 100;
+    color: #3E3E3E;
+    opacity: 0.5;
+    line-height: 2.2rem;
+    width: 100%;
+  }
+
+  .apresentation_firstHalf ul {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .apresentation_firstHalf ul li:first-of-type button {
+    width: 14rem;
+    font-size: 1.5rem;
+    height: 4rem;
+    border-radius: 5px;
+    background-color: #21B1D6;
+    color: white;
+    font-family: "MontserratLight";
+    letter-spacing: 0.4px;
+  }
+
+  .apresentation_firstHalf ul li:first-of-type button:hover {
+    box-shadow: 0 0 1em gray;
+  }
+
+  .apresentation_firstHalf ul li:last-child button {
+
+    font-size: 1.5rem;
+    background-color: white;
+    color: #21B1D6;
+    font-family: "MontserratLight";
+    letter-spacing: 0.4px;
+  }
+
+
+
+  .implante_img {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+  }
+
+  .implante_img img {
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+
+
+  /* planejamento*/
+  .planejamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+
+  .planejamento div:first-child {
+    display: flex;
+    width: 50%;
+    height: 10%;
+  }
+
+  .planejamento div img {
+    width: 70%;
+    margin-left: 9rem;
+  }
+
+  .planejamento div h3 {
+    font-size: 2.5rem;
+    /* text-align: center; */
+    font-family: "MontserratBold";
+    color: #3A3A3A;
+    margin-top: 1rem;
+  }
+
+  .planejamento div p {
+    font-size: 1rem;
+    font-family: "MontserratNormal";
+    color: #3A3A3A;
+    margin-top: 2rem;
+    width: 83%;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+
+
+  .planejamento div h4 {
+    font-size: 1rem;
+    font-family: "MontserratLight";
+    color: #3A3A3A;
+    margin-top: 2rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  .planejamento div h4 span {
+    color: #21B1D6;
+    border-color: #21B1D6;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+
+  }
+
+  .planejamento div button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    background-color: #21B1D6;
+    border-radius: 5px 5px 5px 5px;
+    width: 14rem;
+    height: 4rem;
+    color: white;
+    font-family: "MontserratLight";
+  }
+
+  .planejamento div button:hover {
+    box-shadow: 0 0 1em gray;
+  }
+
+  .planejamento_texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+  }
+}
+
+
